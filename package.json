@@ -1,0 +1,24 @@
+{
+  "name": "LoadTestViaNode",
+  "version": "1.0.0",
+  "description": "\"# LoadTestViaNode\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "node child.js --url='http://tombaranowicz.com/''"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rikster/LoadTestViaNode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rikster/LoadTestViaNode/issues"
+  },
+  "homepage": "https://github.com/rikster/LoadTestViaNode#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "minimist": "^1.2.5"
+  }
+}
